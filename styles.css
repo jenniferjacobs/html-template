@@ -1,2 +1,83 @@
 /* CSS styles */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .details {
+    width: 90%;
+    padding: 5px;
+  }
+  
+  .cat {
+    width: 100%;
+    float: left;
+  }
+}
 
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.details {
+width:45%;
+float: left; 
+clear: left;
+padding: 20px;
+}
+
+.cat {
+  width:50%;
+  float: right; 
+}
+
+img.cat {
+  width: inherit;
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-size: 220%;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align:center;
+}
+
+p, ul {
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-size: 120%;
+}
+
+p.box {
+  text-align: center;
+  border: solid 3px black;
+  padding: 10px;
+  font-size: 140%;
+}
+
+p.button {
+  text-align: center;
+  background-color: indianred;
+  padding: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+a.button{
+  color: white;
+  text-decoration: none;
+}
+
+p.footer {
+  color: grey;
+  font-size: 110%;
+  text-align: center;
+}
+
+a {
+  color: indianred;
+}
